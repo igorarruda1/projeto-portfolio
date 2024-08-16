@@ -1,0 +1,127 @@
+#intro-background{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../assets/images/Background_Intro.png);
+  max-width: 1366px;
+  height: 750px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#info-intro{
+  top: 0;
+  margin-top: 120px;
+  position: absolute;
+  width: 1040px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+ }  
+ #avatar{
+  margin: auto;
+  width: 112px;
+  height: 112px;
+}
+#code{
+  width: 32px;
+  height: 32px;
+  margin: 78px 2px 2px 78px;
+  z-index: 1;
+  position: absolute;
+  img{
+    padding: 3.5px 0.5px 3.5px 0.5px;
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+  }
+}
+#user{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: 8px;
+  width: 96px;
+  height: 96px;
+  border: 2px solid var(--red);
+  border-radius: 999px;
+  img{
+    border-radius: 9999px;
+    padding: 2px;
+    width: 87.27px;
+    height: 87.27px;
+    object-fit: cover;
+  }
+}
+#header-info{
+  text-align: center;
+  width: 680px;
+  gap: 56px;
+}
+#texto{
+  gap: 20px;
+  position: relative;
+  font: var(--subtitle);
+  span{
+    color: var(--gray500);
+    span{
+      color: var(--red);
+    }
+  }
+  p{
+    color: var(--gray400);
+  }
+  h1{
+    font: var(--title-lg);
+    color: var(--gray600);
+  }
+}
+#title{
+  gap: 8px;
+}
+
+#tags-info{
+  width: 754px;
+  gap: 16px;
+  
+    div{
+      gap: 8px;
+      width: auto;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 999px;
+      border: 1px solid var(--gray300);
+      background-color: var(--gray300);
+      
+    }
+  a{
+    text-decoration: none;
+    font: var(--text-md);
+    color: var(--gray500);
+  }
+  img{
+    width: 24px;
+    height: 24px;
+    
+  }
+  
+
+}
+
+#caret{
+  position: absolute;
+  margin-top: 567px;
+  margin-bottom:57px;
+  padding-top: 94px;
+  
+      img{
+        width: 32px;
+        height: 32px;
+        
+      }
+  
+  }

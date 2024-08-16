@@ -1,0 +1,13 @@
+/* utility-first*/
+.grid{
+  display: grid;
+}
+.grid-flow-col{
+  grid-auto-flow: column;
+}
+.gap-56{
+  gap: 56px;
+}
+.text-sm{
+  font: var(--text-sm);
+}
