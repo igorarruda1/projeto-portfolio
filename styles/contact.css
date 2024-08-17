@@ -1,0 +1,92 @@
+#contacts{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../assets/images/Background_Contacts.png);
+  max-width:1366px;
+  height: 767px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
+#header-contact{
+  top: 0px;
+  margin-top: 128px;
+  position: absolute;
+  text-align: center;
+  gap: 8px;
+  span{
+    color: var(--purple);
+    font: var(--subtitle);
+  }
+  h1{
+    color: var(--gray600);
+    font: var(--title-md);
+  }
+  p{
+    color: var(--gray500);
+    font: var(--text-md);
+    
+  }
+}
+#links{
+  gap: 16px;
+  position: absolute;
+  margin-top: 48px;
+}
+a{
+  text-decoration: none;
+  position: relative;
+  #linkedin{
+    background-image: url(../assets/icons/LinkedinLogo.svg);
+  }
+  #instagram{
+    background-image: url(../assets/icons/InstagramLogo.svg);
+  }
+  #github{
+    background-image: url(../assets/icons/GithubLogo.svg);
+  } 
+   #email{
+    background-image: url(../assets/icons/EnvelopeSimple.svg);
+  }
+  h6{
+    position: absolute;
+    font: var(--text-md);
+    color: var(--gray500);
+    padding-block: 3px;
+    margin-block: 23px;
+    margin-left: 60px;
+  }
+  h6 + img{
+    margin: 24px;
+    justify-self: end;
+    width: 20px;
+    height: 20px;
+  }
+}
+.link-itens{
+  text-decoration: none; 
+  width: 400px;
+  height: 68px;
+  background-color: var(--gray300);
+  border-radius: 8px;
+  grid-auto-flow: column;
+  
+}
+.link-itens:hover{
+  border: 1px solid var(--blue);
+  #linkedin{
+    background-image: url(../assets/icons/LinkedinLogoblue.svg);
+  }
+  #instagram{
+    background-image: url(../assets/icons/InstagramLogoblue.svg);
+  }
+  #github{
+    background-image: url(../assets/icons/GithubLogoblue.svg);
+  }
+  #email{
+    background-image: url(../assets/icons/EnvelopeSimpleblue.svg);
+  }
+}

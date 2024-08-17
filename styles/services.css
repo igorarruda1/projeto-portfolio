@@ -9,9 +9,9 @@
 #grid-services {
   padding-bottom: 120px;
 }
-.grid-item2 {
-  padding: 20px;
+.grid-item-services {
   display: grid;
+  padding: 20px;
   width: 280px;
   height: 155px;
   border:2px solid var(--gray200);

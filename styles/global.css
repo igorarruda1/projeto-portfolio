@@ -55,3 +55,16 @@
   padding-inline: 120px;
   gap: 24px;
 }
+.itens-link{
+    margin: 20px 0px 20px 20px;
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.itens-link:hover{
+    width: 28px;
+    height: 28px;
+    background-size: cover;
+}
