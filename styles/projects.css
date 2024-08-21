@@ -6,19 +6,23 @@
 #projects {
   padding-bottom: 144px;
 }
+
 .grid-item-projects {
   display: grid;
   width: 330px;
   height: 280px;
   background-color: var(--gray300);
   border-radius: 12px;
-  gap:20px;
     img{
       width: 306px;
       height: 156px;
       margin: 12px auto 0px ;
       object-fit: cover;
       border-radius: 8px;
+    }
+    
+    a{
+      gap: 20px;
     }
 }
 .grid-item-projects:hover{
